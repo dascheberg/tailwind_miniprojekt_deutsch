@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="bg-blue-800 debug-screens">
-    <div class="container min-h-screen p-2 mx-auto bg-gray-100">
+    <div class="container min-h-screen px-6 py-8 mx-auto bg-gray-100">
             <!-- Seitenkopf / Überschriften -->
-    <div>
+      
+      <section id="top">
+      <div class="mb-8 text-center">
         <h1>Thomas Schmidt-Gonzales Hometraining<br>Ich bring Dich in Form!</h1>
         <h2>Muskelaufbau &middot; Funktionales Training &middot; Ernährungsberatung</h2>
       </div>
+      </section>
+
   
-      <!-- Bild -->
-      <div id="bild">
-        <img src="img/tom.jpg" alt="Thomas Schmidt Online-Trainer">
-      </div>
-  
-      <!-- Leistungen -->
-      <div id="leistungen">
+      <section class="grid grid-cols-2 gap-4" id="bild_leistungen">
+         <!-- Bild -->
+        <div id="bild">
+          <img src="img/tom.jpg" alt="Thomas Schmidt Online-Trainer">
+        </div>
+        <!-- Leistungen -->
+        <div id="leistungen">
         <h3>Ich biete Dir:</h3>
         <ul>
           <li>Unterricht per Skype und du kannst alle Sessions aufnehmen und später noch einmal ansehen.</li>
@@ -36,17 +40,23 @@
             <li>5 Jahre Erfahrung im 1:1 - Training</li>
           </ul>
       </div>
+      </section>
+  
+
   
       <!-- Preise und Bezahlung -->
-      <div id="preise_bezahlung">
-        <h2>Preise und Bezahlung</h2>
-        <p>Mein wichtigstes Ziel ist, daß du mit Deinen Zielen voran kommst.</p>
-        <p>In einer kostenlosen Anfangssession besprechen wir, was du erreichen willst und wieviel du maximal ausgeben möchtest oder kannst. Dann finden wir garantiert eine Lösung, die zu Dir passt.</p>
-      </div>
+      <section class="mt-12" id="preise_bezahlung">
+        <div class="w-8/12 mx-auto">
+          <h2>Preise und Bezahlung</h2>
+          <p>Mein wichtigstes Ziel ist, daß du mit Deinen Zielen voran kommst.</p>
+          <p>In einer kostenlosen Anfangssession besprechen wir, was du erreichen willst und wieviel du maximal ausgeben möchtest oder kannst. Dann finden wir garantiert eine Lösung, die zu Dir passt.</p>
+        </div>
+        </section>
   
       <!-- Kontakt -->
-      <div id="kontakt">
-        <div id="email">
+      <section class="mt-12" id="kontakt">
+        <div class="grid w-8/12 grid-cols-2 mx-auto">
+         <div id="email">
           <p>Schreibe mir auf:</p>
           <a href="mailto:tomgonzales@gmail.com">Email senden</a>
         </div>
@@ -54,7 +64,9 @@
           <p>WhatsApp:</p>
           0275 / 555 44 33
         </div>
-      </div>
+        </div>
+
+      </section>
     </div> 
 </body>
 </html>
