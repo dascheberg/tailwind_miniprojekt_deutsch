@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         ueberschrift: ['Oswald']
+      },
+      colors: {
+        hauptfarbe: '#212f49'
       }
     },
   },
