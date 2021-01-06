@@ -9,7 +9,7 @@
     src: url(/dist/fonts/Oswald/Oswald-Bold.ttf) format("truetype");
   }
     h1 {
-      @apply mb-6 text-5xl font-ueberschrift text-hauptfarbe;
+      @apply mb-4 text-5xl lg:mb-6 font-ueberschrift text-hauptfarbe;
     }
     h2 {
       @apply mb-3 text-3xl font-ueberschrift text-hauptfarbe;
