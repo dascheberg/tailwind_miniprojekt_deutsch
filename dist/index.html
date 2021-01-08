@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="dark" lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="bg-hauptfarbe debug-screens">
-    <div class="container min-h-screen px-6 py-6 mx-auto bg-gray-100 lg:py-8 xl:py-10">
+    <div class="container min-h-screen px-6 py-6 mx-auto bg-gray-100 dark:bg-gray-900 lg:py-8 xl:py-10">
             <!-- Seitenkopf / Überschriften -->
       
       <section id="top">
       <div class="mb-8 text-center">
-        <h1 class="text-3xl leading-snug xl:leading-relaxed md:text-4xl lg:text-5xl">Thomas Schmidt-Gonzales Hometraining<br>Ich bring Dich in Form!</h1>
+        <h1 class="text-3xl leading-snug xl:leading-relaxed md:text-4xl lg:text-5xl">Thomas Schmidt-Gonzales Hometraining<br>
+          <span class="text-4xl italic text-indigo-900 dark:text-indigo-200 sm:text-5xl lg:text-7xl opacity-80">
+            <q>&nbsp;Ich bring Dich in Form!&nbsp;</q>
+          </span>
+
+        </h1>
         <h2 class="text-2xl lg:text-3xl">Muskelaufbau &middot; Funktionales Training &middot; Ernährungsberatung</h2>
       </div>
       </section>
@@ -70,14 +75,14 @@
         <div class="flex justify-evenly lg:flex-none lg:grid lg:w-8/12 2xl:w-7/12 lg:grid-cols-2 lg:mx-auto">
          <div id="email">
           <p>Schreibe mir auf:</p>
-          <a class="flex items-center px-4 py-2 transition bg-gray-300 rounded shadow-sm w-max ring-blue-400px-4 block-inline hover:bg-gray-400 hover:shadow-none focus:ring-2 focus:ring-yellow-500" 
+          <a class="flex items-center px-4 py-2 transition bg-gray-300 rounded shadow-sm dark:hover:bg-gray-600 dark:bg-gray-500 dark:text-white w-max ring-blue-400px-4 block-inline hover:bg-gray-400 hover:shadow-none focus:ring-2 focus:ring-yellow-500" 
           href="#">
 <svg class="h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-at-sign"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg>
           Email senden</a>
         </div>
         <div id="whatsApp_telefon">
           <p>WhatsApp:</p>
-          0275 / 555 44 33
+          <span class="dark:text-gray-200">0275 / 555 44 33</span>
         </div>
         </div>
 
