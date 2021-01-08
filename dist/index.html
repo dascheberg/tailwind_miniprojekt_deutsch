@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html class="dark" lang="de">
+<html x-data="{ darkmode: false }" :class="darkmode ? 'dark' : '' " lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miniprojekt</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 <body class="bg-hauptfarbe debug-screens">
     <div class="container min-h-screen px-6 py-6 mx-auto bg-gray-100 dark:bg-gray-900 lg:py-8 xl:py-10">
-            <!-- Seitenkopf / Überschriften -->
       
+      <div id="darkButton" class="mb-4 text-right">
+        <button @click="darkmode = !darkmode" class="px-3 py-2 bg-gray-300 rounded shadow hover:bg-gray-400">Dark Mode umschalten</button>
+      </div>
+
+      <!-- Seitenkopf / Überschriften -->
       <section id="top">
       <div class="mb-8 text-center">
         <h1 class="text-3xl leading-snug xl:leading-relaxed md:text-4xl lg:text-5xl">Thomas Schmidt-Gonzales Hometraining<br>
