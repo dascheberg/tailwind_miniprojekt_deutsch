@@ -23,6 +23,18 @@
     li {
       @apply dark:text-gray-200;
     }
+    .btn {
+      @apply rounded shadow-sm transition hover:shadow-none px-3 py-2 dark:text-white
+    }
+    .btn-icon {
+      @apply flex items-center
+    }
+    .btn-gray {
+      @apply bg-gray-300 hover:bg-gray-400 dark:bg-gray-400 dark:hover:bg-gray-500
+    }
+    .btn-indigo {
+      @apply bg-indigo-300 hover:bg-indigo-400 dark:bg-indigo-400 dark:hover:bg-indigo-500
+    }
 
     body {
       background-color: #212f49;
